@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.schmi.tp_interfaces_simples.Interface2">
+
+    //choix de la civilité
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="191dp"
+        android:layout_height="52dp"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:orientation="horizontal"
+        android:layout_weight="0.03">
+
+        <RadioButton
+            android:id="@+id/Male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Text_Male" />
+
+        <RadioButton
+            android:id="@+id/Female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:text="@string/Text_Female" />
+    </RadioGroup>
+
+    //pour saisir son nom
+    <EditText
+        android:id="@+id/Surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textPersonName"
+        android:text="@string/Text_Surname" />
+
+    //pour saisir son prénom
+    <EditText
+        android:id="@+id/Firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textPersonName"
+        android:text="@string/Text_Firstname" />
+
+    //pour saisir sa date de naissance
+    <EditText
+        android:id="@+id/Birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textPersonName"
+        android:text="@string/Text_Birthday" />
+
+    //pour saisir son adresse mail
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textPersonName"
+        android:text="@string/Text_Email" />
+
+    //pour saisir son adresse postale
+    <EditText
+        android:id="@+id/Adresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textPersonName"
+        android:text="@string/Text_Adresse" />
+
+    //pour saisir d'éventuels commentaires
+    <EditText
+        android:id="@+id/Comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textPersonName"
+        android:text="@string/Text_Comments" />
+
+    //pour valider le formulaire
+    <Button
+        android:id="@+id/Second_But"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="@string/Text_Second_But"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</LinearLayout>

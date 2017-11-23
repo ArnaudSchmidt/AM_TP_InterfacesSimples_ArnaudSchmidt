@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TP_interfaces_Simples</string>
+    //strings pour l'interface 1
+    <string name="Text_First_But">Start</string>
+    //strings pour l'interface 2
+    <string name="Text_Male">M.</string>
+    <string name="Text_Female">Mme</string>
+    <string name="Text_Surname">Nom</string>
+    <string name="Text_Firstname">Prénom</string>
+    <string name="Text_Birthday">Date de naissance</string>
+    <string name="Text_Email">Adresse mail</string>
+    <string name="Text_Adresse">Adresse postale</string>
+    <string name="Text_Comments">Autres informations utiles</string>
+    <string name="Text_Second_But">Valider</string>
+    //strings pour l'interface 3
+    <string name="Text_Third_But">Sports</string>
+    <string name="Text_Fourth_But">Accueil</string>
+</resources>
